@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'boisustroke';
+    src: url('boisu-stroke-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+    background: url("Photofox.png") no-repeat fixed #F0EEF0;
+    background-size: cover;
+}
+h1
+{
+    color: cadetblue;
+    font-display: auto;
+    text-align: center;
+    font-family: 'boisustroke', sans-serif;
+    font-style: italic;
+    text-shadow: 0.1em 0.5em 0.1em grey;
+    font-size: 2.5em;
+}
+h2
+{
+    color: #9C4A6B;
+    font-display: auto;
+    font-size: 1.5em;
+    border: 0.3em inset #9C4A6B;
+    width: 30%;
+    padding: 0.1em;
+}
+ol
+{
+    text-align:left;
+}
+a:hover
+{
+    color: #0F2CF8;
+    font-display: auto;
+    font-size: 1.3em;
+    font-style: italic;
+     opacity: 1;
+}
+p
+{
+    color: black;
+    font-display: auto;
+    font-size: 1em;
+     opacity: 1;
+}
+a:active
+{
+    background-color: #FFCC66;
+}
+
